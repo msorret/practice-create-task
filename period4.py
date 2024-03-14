@@ -17,4 +17,10 @@ def rank_restaurant(new_restaurant, restaurants):
     return restaurants
 
 print("Your new ranking is", rank_restaurant(new_restaurant, restaurants))
+
+
+res2 = ["Taco Bell", "McDonalds", "Burger King"]
+new_res2 = "Chipotle"
+
+print("Your new ranking is", rank_restaurant(new_res2, res2))
  
